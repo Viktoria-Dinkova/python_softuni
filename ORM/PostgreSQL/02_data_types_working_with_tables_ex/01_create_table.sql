@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS minions(
+	id INTEGER GENERATED ALWAYS AS identity PRIMARY Key,
+	name VARCHAR(30),
+	age INTEGER
+	
+	);
